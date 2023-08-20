@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url("./Trabajo\ Final\ AAPRO/backgroundtrianglespastel.jpg");
+}
+
+/* Tabla de horarios */
+
+.tablahorarios{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.dias {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.horarios {
+    font-style: italic;
+}
+
+.dias, .horarios {
+    color: rgb(233, 32, 25);
+    text-align: center;
+}
+
+/* header */
+
+.header {
+    border: 2px;
+    border-style: outset;
+    border-radius: 5px;
+    margin: 15px;
+    position: relative;
+    height: 100px;
+    width: 100% - 15px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+/* main */
+
+.main {
+    margin-top: 30px;
+    padding-left: 15px;
+    position: relative;
+}
+
+/* footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 25px;
+    width: 100%;
+    background-color: rgba(235, 14, 14, 0.74);
+}
+
+/* formulario de pedidos */
+
+.pedidosformulario {
+    background-color: white;
+    margin-left: 15px;
+    padding: 0px 7px 5px;
+    width: 40%;
+    border: 3px solid rgba(0, 0, 0, 0.788);
+    border-radius: 5px;
+}
+.mainpedidos{
+    height: 600px;
+}
+.nomapellpedidos{
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nompedidos, .apellpedidos{
+    padding-right: 15px;
+}
+
+/* formulario de contacto */
+
+.contactoformulario {
+    background-color: white;
+    margin-left: 15px;
+    padding: 0px 7px 5px;
+    width: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.788);
+    border-radius: 5px;
+}
+.maincontacto{
+    height: 600px;
+}
+.nomapellcontacto{
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nomcontacto, .apellcontacto{
+    padding-right: 15px;
+}
+
+/* navegador */
+
+.navegador {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    align-items: center;
+}
+
+.op2,.op3,.op4,.op5 {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-left: 2px solid black;
+}
+
+.op1 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* titulos */
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
